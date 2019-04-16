@@ -1,7 +1,9 @@
 #### 1) get_mysql_stats【mysql的性能监控】
 
 ##### 限制：
+```
 5.7及以上的不支持，后期再支持
+```
 ##### 帮助
 ```
 # python get_mysql_stats.py --help
@@ -23,7 +25,6 @@ Options:
 ##### 例子：
 ```
 # python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
-```
 采集信息列表：  
 　1）time：时间  
 　2）sel：qps  
@@ -47,4 +48,5 @@ Options:
 　20）i_data_pw：inndo当前挂起的写操作数  
 　21）slow_num：慢日志数  
 　22）netIn：网卡输入  
-　23）netOut网卡输出  
+　23）netOut网卡输出
+ ```
