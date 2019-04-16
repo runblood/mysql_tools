@@ -5,7 +5,7 @@
 ##### 帮助
 ```
 # python get_mysql_stats.py --help
-```
+
 Usage: python get_mysql_stats.py [options]  
  
 This script prints MySQL TPS QPS  
@@ -18,7 +18,8 @@ Options:
 　-p PASSWORD,　--password=PASSWORD  
 　　　　　　　　　　　　　 mysql password  
 　-I　interval,　--interval=interval  
-　　　　　　　　　　　　　 default 1                
+　　　　　　　　　　　　　 default 1         
+```
 ##### 例子：
 ```
 # python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
