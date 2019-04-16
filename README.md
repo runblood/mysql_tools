@@ -1,6 +1,7 @@
+### 1) get_mysql_stats
+
 #### 限制：
 5.7及以上的不支持，后期再支持
-
 #### 帮助
 ```
 python get_mysql_stats.py --help
@@ -15,10 +16,9 @@ Options:
 　-P PORT,　--port=PORT　mysql port  
 　-u USER,　--user=USER　mysql user  
 　-p PASSWORD,　--password=PASSWORD  
-　　　　　　　　　　　　　mysql password  
+　　　　　　　　　　　　　 mysql password  
 　-I　interval,　--interval=interval  
-　　　　　　　　　　　　　default 1  
-                 
+　　　　　　　　　　　　　 default 1                
 #### 例子：
 ```
 python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
