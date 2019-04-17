@@ -50,3 +50,5 @@ Options:
 　22）netIn：网卡输入  
 　23）netOut网卡输出
  ```
+#### 2. get_redis_stats【redis的性能监控】
+使用方法和get_mysql_stats一样
