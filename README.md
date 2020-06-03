@@ -1,10 +1,7 @@
 #### 1. get_mysql_stats【mysql的性能监控】
 
-##### 1.1 限制：
 ```
-5.7及以上的不支持，后期再支持
-```
-##### 1.2 帮助
+##### 1.1 帮助
 ```
 # python get_mysql_stats.py --help
 
@@ -22,7 +19,7 @@ Options:
 　-I　interval,　--interval=interval  
 　　　　　　　　　　　　　 default 1         
 ```
-##### 1.3 例子：
+##### 1.2 例子：
 ```
 # python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
 采集信息列表：  
