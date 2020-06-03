@@ -1,7 +1,7 @@
-### 1. get_mysql_stats【mysql的性能监控】
+### get_mysql_stats【mysql的性能监控】
 
 ```
-#### 1.1 帮助
+#### 1 帮助
 ```
 #### python get_mysql_stats.py --help
 
@@ -19,7 +19,7 @@ Options:
 　-I　interval,　--interval=interval  
 　　　　　　　　　　　　　 default 1         
 ```
-#### 1.2 例子：
+#### 1 例子：
 ```
 #### python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
 采集信息列表：  
@@ -46,7 +46,6 @@ Options:
 　21）slow_num：慢日志数  
 　22）netIn：网卡输入  
 　23）netOut网卡输出
- ```
 
 ### 2. get_redis_stats【redis的性能监控】
 使用方法和get_mysql_stats一样
