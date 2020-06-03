@@ -1,9 +1,9 @@
-#### 1. get_mysql_stats【mysql的性能监控】
+### 1. get_mysql_stats【mysql的性能监控】
 
 ```
 ##### 1.1 帮助
 ```
-### python get_mysql_stats.py --help
+#### python get_mysql_stats.py --help
 
 Usage: python get_mysql_stats.py [options]  
  
@@ -21,7 +21,7 @@ Options:
 ```
 ##### 1.2 例子：
 ```
-### python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
+#### python get_mysql_stats.py --host=xxxxxxxx --port=xxx --user=xxx --password=xxx
 采集信息列表：  
 　1）time：时间  
 　2）sel：qps  
@@ -47,5 +47,5 @@ Options:
 　22）netIn：网卡输入  
 　23）netOut网卡输出
  ```
-#### 2. get_redis_stats【redis的性能监控】
+### 2. get_redis_stats【redis的性能监控】
 使用方法和get_mysql_stats一样
