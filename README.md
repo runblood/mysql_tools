@@ -18,7 +18,7 @@ Daily operation and maintenance tools of MySQL
 - Support MySQL show engine InnoDB status important information output
 - Support MySQL user table authority query and synchronization
 
-## 依赖
+## Requirements
 
 - Python >= 2.7
 - colorama >= 0.4.3
