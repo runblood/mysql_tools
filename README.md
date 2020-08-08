@@ -28,3 +28,38 @@ Daily operation and maintenance tools of MySQL
 ...
 
 ## Usage
+
+### conf/ip_list.txt
+
+Connection information used to connect to the local / remote dB, for example：
+10.x.x.1,port,user,pasword,db
+10.x.x.2,port,user,pasword,db
+
+### conf/sql_list.txt
+
+Used to save the execution of a query or command, for example：
+
+select * from test;
+
+### usage method
+
+eg：
+$ python mysql_query.py --help
+
+## Support this project
+
+- Just click a star!
+- Join wechat group to communicate!
+- donation!
+
+## WeChat Pay
+
+<img width="200" src="https://github.com/long2ice/synch/raw/dev/images/wechatpay.jpeg"/>
+
+## ThanksTo
+
+Powerful Python IDE [Pycharm](https://www.jetbrains.com/pycharm/?from=synch) 
+
+## License
+
+This project is licensed under the Apache-2.0 License.
