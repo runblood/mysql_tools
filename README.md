@@ -20,31 +20,49 @@ Daily operation and maintenance tools of MySQL
 
 ## Requirements
 
-- Python >= 2.7
+- [Python](https://www.python.org/downloads/) >= 3.6
+- [numpy](https://pypi.org/project/numpy/) >= 1.17.4
+- [prettytable](https://pypi.org/project/PrettyTable/) >= 0.7.2
+- [xlrd](https://pypi.org/project/xlrd/) >= 1.2.0
 - colorama >= 0.4.3
-- numpy >= 1.17.4
-- prettytable >= 0.7.2
-- xlrd >= 1.2.0
 ...
 
 ## Usage
 
-### conf/ip_list.txt
+### Config file
 
-Connection information used to connect to the local / remote dB, for example：
+[`ip_list.txt`]
+
+Connection information used to connect to the local / remote DB, for example：
+```
 10.x.x.1,port,user,pasword,db
 10.x.x.2,port,user,pasword,db
+```
 
-### conf/sql_list.txt
+[`sql_list.txt`]
 
 Used to save the execution of a query or command, for example：
 
+```
 select * from test;
+```
 
-### usage method
+### usage Detailed
 
-eg：
+### 1、Remote query data
+```
 $ python mysql_query.py --help
+usage: mysql_query.py [-h] -i IP_FILE -s SQL_FILE [-c COLUMN_NAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IP_FILE, --ip_file IP_FILE
+                        ip list file
+  -s SQL_FILE, --sql_file SQL_FILE
+                        query sql
+  -c COLUMN_NAME, --column_name COLUMN_NAME
+                        column name
+```
 
 ## Support this project
 
@@ -54,7 +72,7 @@ $ python mysql_query.py --help
 
 ## WeChat Pay
 
-<img width="200" src="https://github.com/runblood/mysql_tools/blob/master/images/wechatpay.jpeg"/>
+<img width="200" src="https://github.com/runblood/mysql_tools/blob/master/images/wechatpay.jpeg">
 
 ## ThanksTo
 
