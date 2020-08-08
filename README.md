@@ -47,9 +47,9 @@ Used to save the execution of a query or command, for example：
 select * from test;
 ```
 
-### usage Detailed
+### Detailed use
 
-### 1、Remote query data
+### Remote query data
 ```
 $ python mysql_query.py --help
 usage: mysql_query.py [-h] -i IP_FILE -s SQL_FILE [-c COLUMN_NAME]
