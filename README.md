@@ -20,7 +20,7 @@ Daily operation and maintenance tools of MySQL
 
 ## 依赖
 
-- Python >= 3.7
+- Python >= 2.7
 - colorama >= 0.4.3
 - numpy >= 1.17.4
 - prettytable >= 0.7.2
