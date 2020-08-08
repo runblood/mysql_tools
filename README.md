@@ -1,6 +1,6 @@
 # mysql_tools
 
-![pypi](https://img.shields.io/pypi/v/synch.svg?style=flat)
+![pypi](https://img.shields.io/pypi/v/mysql_tools.svg?style=flat)
 
 ## Introduction
 
@@ -58,7 +58,7 @@ $ python mysql_query.py --help
 
 ## ThanksTo
 
-Powerful Python IDE [Pycharm](https://www.jetbrains.com/pycharm/?from=synch) 
+Powerful Python IDE [Pycharm](https://www.jetbrains.com/pycharm/?from=mysql_tools) 
 
 ## License
 
