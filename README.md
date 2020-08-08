@@ -54,7 +54,7 @@ $ python mysql_query.py --help
 
 ## WeChat Pay
 
-<img width="200" src="#"/>
+<img width="200" src="https://github.com/runblood/mysql_tools/blob/master/images/wechatpay.jpeg"/>
 
 ## ThanksTo
 
