@@ -31,15 +31,16 @@ Daily operation and maintenance tools of MySQL
 
 ### Config file
 
-[`ip_list.txt`]
+config/ip_list.txt
 
 Connection information used to connect to the local / remote DB, for example：
+
 ```
 10.x.x.1,port,user,pasword,db
 10.x.x.2,port,user,pasword,db
 ```
 
-[`sql_list.txt`]
+config/sql_list.txt
 
 Used to save the execution of a query or command, for example：
 
@@ -50,7 +51,8 @@ select * from test;
 ### Detailed use
 
 ### Remote query data
-```
+
+```shell
 $ python mysql_query.py --help
 usage: mysql_query.py [-h] -i IP_FILE -s SQL_FILE [-c COLUMN_NAME]
 
