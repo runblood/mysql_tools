@@ -109,7 +109,7 @@ Are you sure to execute? [yes/no]: yes
 
 ## ThanksTo
 
-Powerful Python IDE [Pycharm](https://www.jetbrains.com/pycharm/?from=mysql_tools) 
+Powerful VI editor [Vi](https://www.vim.org/) 
 
 ## License
 
