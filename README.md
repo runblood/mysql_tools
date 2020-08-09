@@ -8,7 +8,7 @@ Daily operation and maintenance tools of MySQL
 
 ## Features
 
-- Support Mysql to MySQL database, table and condition level synchronization
+- Support MySQL to MySQL database, table and condition level synchronization
 - Support MySQL remote query and remote execution
 - Support MySQL table level data comparison
 - Support the import of CSV files into mysql
@@ -25,7 +25,6 @@ Daily operation and maintenance tools of MySQL
 - [prettytable](https://pypi.org/project/PrettyTable/) >= 0.7.2
 - [xlrd](https://pypi.org/project/xlrd/) >= 1.2.0
 - [colorama](https://pypi.org/project/colorama/) >= 0.4.3
-...
 
 ## Usage
 
@@ -74,6 +73,26 @@ Host: 10.x.x.1 Port: 3306 DB: test
 +----+-----------+---------------------------------------+-------------+
 | 2  | 1         | h=10.x.x.1                            | None        |
 +----+-----------+---------------------------------------+-------------+
+```
+### Remote execute data
+
+```shell
+$ python mysql_execute.py --help
+usage: mysql_execute.py [-h] -i IP_FILE -s SQL_FILE [-c COLUMN_NAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IP_FILE, --ip_file IP_FILE
+                        ip list file
+  -s SQL_FILE, --sql_file SQL_FILE
+                        dml sql
+$ python mysql_execute.py -i='conf/ip_list.txt' -s='conf/sql_list.txt'
+Are you sure to execute? [yes/no]: yes
++-------------+------+--------------------------+
+| IP       | Port | Result                   |
++-------------+------+--------------------------+
+| 10.x.x.1 | 3306 | success, affect [1] line |
++-------------+------+--------------------------+
 ```
 
 ## Support this project
