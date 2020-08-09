@@ -24,7 +24,7 @@ Daily operation and maintenance tools of MySQL
 - [numpy](https://pypi.org/project/numpy/) >= 1.17.4
 - [prettytable](https://pypi.org/project/PrettyTable/) >= 0.7.2
 - [xlrd](https://pypi.org/project/xlrd/) >= 1.2.0
-- colorama >= 0.4.3
+- [colorama](https://pypi.org/project/colorama/) >= 0.4.3
 ...
 
 ## Usage
@@ -64,6 +64,16 @@ optional arguments:
                         query sql
   -c COLUMN_NAME, --column_name COLUMN_NAME
                         column name
+$ python mysql_query.py -i='conf/ip_list.txt' -s='conf/sql_list.txt'
+
+Host: 10.x.x.1 Port: 3306 DB: test
++----+-----------+---------------------------------------+-------------+
+| id | parent_id | content                               | create_time |
++----+-----------+---------------------------------------+-------------+
+| 1  | 1         | h=10.x.x.1                            | None        |
++----+-----------+---------------------------------------+-------------+
+| 2  | 1         | h=10.x.x.1                            | None        |
++----+-----------+---------------------------------------+-------------+
 ```
 
 ## Support this project
