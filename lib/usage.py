@@ -22,6 +22,7 @@ class Cls_Usage:
     def mysql_query(self):
         self.__parser.add_argument('-i', '--ip_file', help='ip list file', required=True)
         self.__parser.add_argument('-s', '--sql_file', help='query sql', required=True)
+        self.__parser.add_argument('-c', '--column_name', help='column name')
 
         ### namespace转换
         return vars(self.__parser.parse_args())
@@ -30,7 +31,6 @@ class Cls_Usage:
     def mysql_execute(self):
         self.__parser.add_argument('-i', '--ip_file', help='ip list file', required=True)
         self.__parser.add_argument('-s', '--sql_file', help='dml sql', required=True)
-        self.__parser.add_argument('-c', '--column_name', help='column name')
 
         ### namespace转换
         return vars(self.__parser.parse_args())
