@@ -39,6 +39,8 @@ Connection information used to connect to the local / remote DB, for example：
 10.x.x.2,port,user,pasword,db
 ```
 
+#### Note: the assigned user permissions need to be sufficient, otherwise an error will be reported
+
 config/sql_list.txt
 
 Used to save the execution of a query or command, for example：
