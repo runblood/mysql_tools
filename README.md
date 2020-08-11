@@ -103,6 +103,10 @@ Are you sure to execute? [yes/no]: yes
 - Join wechat group to communicate!
 - donation!
 
+## QQ Group
+
+<img width="200" src="https://github.com/runblood/mysql_tools/blob/master/images/QQ%20Group.jpeg">
+
 ## WeChat Pay
 
 <img width="200" src="https://github.com/runblood/mysql_tools/blob/master/images/wechatpay.jpeg">
