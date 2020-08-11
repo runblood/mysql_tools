@@ -1,7 +1,5 @@
 # mysql_tools
 
-![pypi](https://img.shields.io/pypi/v/mysql_tools.svg?style=flat)
-
 ## Introduction
 
 Daily operation and maintenance tools of MySQL
