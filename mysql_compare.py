@@ -64,10 +64,9 @@ class Cls_Mysql_Compare:
             var_col = []
             for key, val in i.items():
                var_col.append(str(val))
-            print(var_col)
             strvar = '","'.join(var_col)
             c_v = head + strvar + end
-            insertsql = replstr + c_v
+            insertsql = replstr + c_v.replace('"None"', 'NULL')
             self.out.add_row([insertsql])
 
     ### 主函数
